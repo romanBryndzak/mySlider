@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.wrapper .slide {
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    background-color: green;
+}
