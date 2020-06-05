@@ -1,5 +1,5 @@
-let sliderDisabled = sliderObject.sliderCreate();
-let sliderInfinite = sliderObject.sliderCreate();
+let sliderDisabled = new Slider();
+let sliderInfinite = new Slider();
 
 sliderDisabled.startInitialization('sliderDisabled');
 sliderInfinite.startInitialization('sliderInfinite');
