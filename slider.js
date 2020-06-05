@@ -57,9 +57,6 @@ Slider.prototype.startInitialization = function (elId) {
 
     const sliderThis = this;
     this.image.push('https://klike.net/uploads/posts/2019-06/1560838551_1.jpg');
-    this.image.push('https://i.ytimg.com/vi/Qq6b3v_0AtM/maxresdefault.jpg');
-    this.image.push('https://i.ytimg.com/vi/NYTrF1yQ1u0/maxresdefault.jpg');
-    this.image.push('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSo5oACWf92GRRhy30CoSBy0B9i6qlc7vU8OwFBBvqBmq1g-O8u&usqp=CAU');
 
     this.buttonPrevious.addEventListener('click', function (e) {
         if (elId === 'sliderDisabled') {
